@@ -6,6 +6,8 @@
 		<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 		<link rel="stylesheet" href="CSS/style.css">
 		<title>{{ constant('WEBSITE_TITLE')}}</title>
+        <link rel="icon" sizes="16x16" href="images/favicon-16x16.png">
+        <link rel="icon" sizes="32x32" href="images/favicon-32x32.png">
 		<style>
 			html,
 			body {
@@ -16,9 +18,10 @@
 		</style>
 	</head>
 	<body class="d-flex flex-column min-vh-100 bg-mylight">
-		<header>
+    <header>
+        <img src="images/logoSiteNDI.png" alt="Logo de mon site" class="logo">
+    </header>
 
-		</header>
 
 		{% block content %}{% endblock %}
 
