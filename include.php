@@ -12,9 +12,6 @@ require_once 'config/twig.php';
 //Ajout du modèle qui gère la connexion mysql
 require_once 'modeles/bd.class.php';
 
-// Ajout des modeles
-require_once 'modeles/bd.class.php';
-
 
 // Ajout des controleurs
 require_once 'controller/controller.class.php';
