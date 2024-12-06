@@ -2,17 +2,22 @@
 
 class ControllerCorps extends Controller
 {
-    public function __construct(\Twig\Environment $twig, \Twig\Loader\FilesystemLoader $loader) {
+    public function __construct(\Twig\Environment $twig, \Twig\Loader\FilesystemLoader $loader)
+    {
         parent::__construct($twig, $loader);
     }
-    
-    public function cerveau() : void {
+
+    public function cerveau(): void
+    {
         $template = $this->getTwig()->load('cerveau.html.twig');
         echo $template->render(array());
     }
-    public function index() : void {
+
+    public function index(): void
+    {
+        // Passer display_header à false pour ne pas afficher le header
         $template = $this->getTwig()->load('index.html.twig');
-        echo $template->render(array());
+        echo $template->render(['display_header' => false]);  // Ici
     }
     public function bras() : void {
         $template = $this->getTwig()->load('bras.html.twig');

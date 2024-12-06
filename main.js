@@ -114,7 +114,7 @@ window.addEventListener("click", (event) => {
 
 // Objectes de correspondance entre le nom de l'objet et les URLs
 const redirectLinks = {
-  head: "https://www.example.com/head",
+  head: "http://localhost/NDI/NDI-2024/index?controleur=corps&methode=cerveau",
   torsoUp: "https://www.example.com/torsoUp",
   torsoDown: "https://www.example.com/torsoDown",
   llegs: "https://www.example.com/llegs",
