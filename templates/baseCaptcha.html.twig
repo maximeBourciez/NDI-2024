@@ -6,17 +6,17 @@
         <h1 class="mb-4">Êtes-vous un robot ?</h1>
         <div class="d-flex justify-content-center gap-3 position-relative">
             <!-- Bouton Oui -->
-            <button class="btn btn-danger btn-lg">Oui</button>
+            <a class="btn btn-danger btn-lg" href="index.php?controller=captcha&methode=jouerAsteroids">Oui</a>
             
             <!-- Conteneur pour le bouton avec l'image -->
             <div class="position-relative" id="btnContainer">
                 <img src="img/toHideLogo" id="hiddenLogo" alt="Logo"
                      class="position-absolute start-0 top-0 w-100 h-100" style="z-index: 0; object-fit: cover; border-radius: 5px;">
-                <button class="btn btn-success btn-lg position-relative" id="btnOfficieux" style="z-index: 1;">Non</button>
+                <button class="btn btn-success btn-lg position-relative" id="btnOfficieux" style="z-index: 1;">Non</a>
             </div>
 
             <!-- Bouton Non officiel -->
-            <button class="btn btn-success btn-lg d-none" id="btnOfficiel">Non</button>
+            <a class="btn btn-success btn-lg d-none" id="btnOfficiel" href="index.php?controller=captcha&methode=jouerMorpion">Non</button>
         </div>
     </div>
 </div>

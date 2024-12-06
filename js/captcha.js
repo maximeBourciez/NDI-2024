@@ -31,14 +31,10 @@ function btnOfficieux() {
     }
 }
 
-// Fonction pour le bouton officiel
-function btnOfficiel() {
-    alert('Bravo, vous avez réussi le captcha !');
-}
 
 // Événements pour les boutons
 fauxBtn.addEventListener('click', btnOfficieux);
-vraiBtn.addEventListener('click', btnOfficiel);
+
 
 // Fonction pour générer une nouvelle position
 function nouvellePosition() {

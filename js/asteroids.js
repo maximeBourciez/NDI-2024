@@ -86,10 +86,25 @@ document.addEventListener("DOMContentLoaded", () => {
     document.addEventListener("keyup", (e) => {
         if (e.code in keys) keys[e.code] = false;
     });
+    const NEW_ASTEROID_THRESHOLD = 500;
 
     // Update game state
     function update() {
         if (gameOver) return;
+
+        if (score > 0 && score % NEW_ASTEROID_THRESHOLD === 0) {
+            if (!asteroids.some(ast => ast.addedAtScore === score)) {
+                asteroids.push({
+                    x: Math.random() * canvas.width,
+                    y: Math.random() * canvas.height,
+                    width: 50,
+                    height: 50,
+                    dx: Math.random() * 4 - 2,
+                    dy: Math.random() * 4 - 2,
+                    addedAtScore: score, // Empêche la répétition d’ajout
+                });
+            }
+        }
 
         if (keys.ArrowUp) {
             player.speed = Math.min(player.speed + 0.2, player.maxSpeed);
@@ -216,10 +231,7 @@ document.addEventListener("DOMContentLoaded", () => {
         ctx.fillText(`Score: ${score}`, 10, 20);
         ctx.fillText(`Lives: ${player.lives}`, 10, 50);
 
-        // Réapparaître si tous les astéroïdes sont détruits
-        if (asteroids.length === 0) {
-            createAsteroids(10 + Math.floor(score / 1000)); // Augmente la difficulté
-        }
+        
     }
 
     // Game loop
@@ -230,6 +242,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     // Start game
-    createAsteroids(10);
+    createAsteroids(1);
     gameLoop();
 });
