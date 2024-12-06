@@ -139,10 +139,10 @@ const redirectLinks = {
   head: "index?controleur=corps&methode=cerveau",
   torsoUp: "index?controleur=corps&methode=coeur",
   torsoDown: "index?controleur=corps&methode=estomac",
-  llegs: "index?controleur=corps&methode=bras",
-  rlegs: "index?controleur=corps&methode=bras",
-  larms: "index?controleur=corps&methode=jambe",
-  rarms: "index?controleur=corps&methode=jambe",
+  llegs: "index?controleur=corps&methode=jambe",
+  rlegs: "index?controleur=corps&methode=jambe",
+  larms: "index?controleur=corps&methode=bras",
+  rarms: "index?controleur=corps&methode=bras",
 };
 
 function zoomTransition(object) {
