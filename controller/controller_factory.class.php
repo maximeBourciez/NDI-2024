@@ -1,7 +1,6 @@
 <?php
 
 /**
- * @author Félix Autant
  * @describe controller factory
  * @version 0.1
  */
