@@ -18,109 +18,14 @@
 		</style>
 	</head>
 	<body class="d-flex flex-column min-vh-100 bg-mylight">
-		<header>
-    <!-- <nav class="navbar navbar-expand-lg navbar-mydark justify-content-center">
-        <!- Section gauche ->
-        <div class="navbar-start d-flex align-items-center">
-            <a class="navbar-brand d-none d-lg-flex align-items-center ms-lg-5" href="index.php">
-                <img src="{{ constant('WEBSITE_LOGO') }}" class="img-fluid website-logo" alt="VHS Logo">
-            </a>
-            <button class="navbar-toggler bi bi-list" type="button" data-bs-toggle="collapse" data-bs-target="#submenu" aria-expanded="false" aria-label="Toggle navigation">
-            </button>
-            <div class="collapse navbar-collapse" id="navbarContent">
-                <div class="d-flex align-items-center ms-lg-2">
-                    <button class="btn btn-myprimary bi bi-list" type="button" data-bs-toggle="collapse" data-bs-target="#submenu" aria-expanded="false">
-                        Menu
-                    </button>
-                </div>
-            </div>
-        </div>
-
-        <!- Section centrale (barre de recherche) ->
-        <form class="search-form-container flex-grow-1">
-            <div class="input-group">
-                <input class="form-control fw-light" type="search" placeholder="Barre de recherche" aria-label="Search">
-                <button class="btn bg-myprimary" type="submit">
-                    <i class="bi bi-search"></i>
-                </button>
-            </div>
-        </form>
-
-        <!- Section droite ->
-        <div class="navbar-end d-flex align-items-center gap-3 me-lg-4">
-            <a href="index.php?controller=utilisateur&methode=connexion">
-                <button class="btn btn-myprimary">Connexion</button>
-            </a>
-            <a class="navbar-brand d-flex align-items-center text-white mb-0" href="#">
-                <p class="mb-0 me-2 d-none d-lg-block">{{ constant('WEBSITE_LANGUAGE')}}</p>
-                <img src="{{ constant('WEBSITE_LOGO_FLAG')}}" height="24" alt="FR">
-            </a>
-        </div>
-    </nav>
-
-			<!- Menu secondaire ->
-			<div class="collapse" id="submenu">
-				<div class="bg-mydark border-top border-2 border-myprimary py-4">
-					<div class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-3 gap-md-5">
-						<a href="index.php?controller=fil&methode=listerThreads">
-							<button class="btn btn-myprimary">Forum</button>
-						</a>
-						<a href="#">
-							<button class="btn btn-myprimary">Watch2Gether</button>
-						</a>
-						<a href="#">
-							<button class="btn btn-myprimary">WatchList</button>
-						</a>
-						<a href="#">
-							<button class="btn btn-myprimary">Quizz</button>
-						</a>
-						<a href="index.php?controller=utilisateur&methode=show">
-							<button class="btn btn-myprimary">Profil</button>
-						</a>
-					</div>
-				</div>
-			</div> -->
-		</header>
+	
 
 
 		{% block content %}{% endblock %}
 
-		<!-- Barres de couleurs ->
-		<div class="container-fluid p-0">
-			<div class="row g-2">
-				<div class="col-12 bg-myprimary py-2" style="height: 2vh;"></div>
-				<div class="col-12 bg-mysecondary py-2" style="height: 2vh;"></div>
-				<div class="col-12 bg-mytercary py-2 mb-2" style="height: 2vh;"></div>
-			</div>
-		</div>
-        -->
+		
 
-		<!-- Footer ->
-		<footer class="bg-mydark mt-auto py-4">
-			<div class="container">
-				<div class="row text-center">
-					<div class="col-12">
-						<div class="d-flex flex-wrap justify-content-center text-white gap-3 mb-3">
-							<p class="mb-2">À propos de VHS</p>
-							<p class="mb-2">Conditions d'utilisation</p>
-							<p class="mb-2">Politique de confidentialité</p>
-							<p class="mb-2">Politique de cookies</p>
-						</div>
-					</div>
-					<div class="col-12">
-						<div class="d-flex justify-content-center gap-3 mb-3">
-							<a href="https://www.facebook.com/"><img src="https://img.icons8.com/ios-glyphs/30/ffffff/facebook-new.png" alt="Facebook" class="logo-facebook"/></a>
-							<a href="https://www.instagram.com/"><img src="https://img.icons8.com/ios-glyphs/30/ffffff/instagram-new.png" alt="Instagram" class="logo-instagram"/></a>
-							<a href="https://twitter.com/"><img src="https://img.icons8.com/ios-glyphs/30/ffffff/twitter--v1.png" alt="Twitter" class="logo-twitter"/></a>
-						</div>
-					</div>
-					<div class="col-12">
-						<p class="text-white mb-0">© 2024 VHS</p>
-					</div>
-				</div>
-			</div> -->
-		</footer>
-
+        {% block script %}{% endblock %}
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script> 
 	</body>
 </html>

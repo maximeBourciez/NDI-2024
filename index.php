@@ -17,7 +17,7 @@ try  {
 
     //Gestion de la page d'accueil par défaut
     if ($controllerName == '' && $methode ==''){
-        $template = $twig->load('index.html.twig');
+        $template = $twig->load('morpion.html.twig');
         echo $template->render(array('etat' => 'connecte',));
         
     }
