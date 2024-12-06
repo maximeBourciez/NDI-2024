@@ -1,6 +1,8 @@
 import * as THREE from "https://unpkg.com/three@0.158.0/build/three.module.js";
 import { OrbitControls } from "https://unpkg.com/three@0.158.0/examples/jsm/controls/OrbitControls.js";
 import { FBXLoader } from "https://unpkg.com/three@0.158.0/examples/jsm/loaders/FBXLoader.js";
+import { FontLoader } from "https://unpkg.com/three@0.158.0/examples/jsm/loaders/FontLoader.js";
+import { TextGeometry } from "https://unpkg.com/three@0.158.0/examples/jsm/geometries/TextGeometry.js";
 
 // Scène, caméra, rendu
 const scene = new THREE.Scene();
@@ -44,40 +46,60 @@ const mouse = new THREE.Vector2();
 const modelLoader = new FBXLoader();
 let model;
 
+// Ajouter après l'import des modules nécessaires
+function addText(scene, position = { x: 0, y: 3, z: 0 }) {
+  const loader = new FontLoader();
+
+  loader.load(
+    "https://threejs.org/examples/fonts/helvetiker_regular.typeface.json",
+    (font) => {
+      const textGeometry = new TextGeometry("Click moi dessus!", {
+        font: font,
+        size: 0.5,
+        height: 0.2,
+        curveSegments: 12,
+        bevelEnabled: true,
+        bevelThickness: 0.03,
+        bevelSize: 0.02,
+        bevelSegments: 5,
+      });
+
+      const textMaterial = new THREE.MeshStandardMaterial({
+        color: 0xff6347,
+        roughness: 0.3,
+        metalness: 0.5,
+      });
+
+      const textMesh = new THREE.Mesh(textGeometry, textMaterial);
+      textMesh.position.set(position.x, position.y, position.z);
+      textMesh.castShadow = true;
+      scene.add(textMesh);
+    }
+  );
+}
+
+addText(scene, { x: 0, y: 18, z: 0 });
+
 modelLoader.load("models3D/character.fbx", (object) => {
   model = object;
 
-  // Appliquer un matériau avec une couleur beige
-  const beigeColor = new THREE.Color(0xf5f5dc); // Code couleur hexadécimal pour beige
-
   model.traverse((child) => {
     if (child.isMesh) {
+      const beigeColor = new THREE.Color(0xf5f5dc);
       child.material = new THREE.MeshStandardMaterial({
         color: beigeColor,
         roughness: 0.5,
         metalness: 0.2,
       });
-      child.material.needsUpdate = true;
     }
   });
 
-  // Centrer et ajuster le modèle
-  model.position.set(0, 0, 0); // Ajustez en fonction de votre modèle
+  model.position.set(0, 0, 0);
   model.scale.set(0.1, 0.1, 0.1);
   scene.add(model);
 
-  // Assurer que tous les maillages sont visibles des deux côtés
-  model.traverse((child) => {
-    if (child.isMesh) {
-      child.material.side = THREE.DoubleSide;
-    }
-  });
-
-  // Log bounding box pour comprendre la taille/position du modèle
+  // Calculer les limites et ajuster la caméra
   const box = new THREE.Box3().setFromObject(model);
-  console.log("Model Bounding Box:", box);
-
-  // Ajuster la position et le zoom de la caméra en fonction du modèle
   adjustCameraToFitModel(camera, controls, box);
 });
 
@@ -114,7 +136,7 @@ window.addEventListener("click", (event) => {
 
 // Objectes de correspondance entre le nom de l'objet et les URLs
 const redirectLinks = {
-  head: "http://localhost/NDI/NDI-2024/index?controleur=corps&methode=cerveau",
+  head: "index?controleur=corps&methode=cerveau",
   torsoUp: "https://www.example.com/torsoUp",
   torsoDown: "https://www.example.com/torsoDown",
   llegs: "https://www.example.com/llegs",
