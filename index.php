@@ -17,9 +17,10 @@ try  {
 
     //Gestion de la page d'accueil par défaut
     if ($controllerName == '' && $methode ==''){
-        $template = $twig->load('index.html.twig');
-        echo $template->render(array('etat' => 'connecte',));
-        
+        // $template = $twig->load('captcha.html.twig');
+        // echo $template->render(array('etat' => 'connecte',));
+        $controllerName = 'captcha';
+        $methode = 'FctDegueulasse';
     }
     else if ($controllerName == '' ){
         throw new Exception('Le controleur n\'est pas défini');

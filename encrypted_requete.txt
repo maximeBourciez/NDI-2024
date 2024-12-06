@@ -1,0 +1,53 @@
+UCLCSZ QIT(z0.zljrbptnef) IU qit_srfioexqth_zljrbptnef, SAEVZ(z0.zljrbptnef) IU saevz_srfioexqth_zljrbptnef, QIT(z1.vlnwnwcbge) IU qit_sribtcapda_vlnwnwcbge, SAEVZ(z1.vlnwnwcbge) IU saevz_sribtcapda_vlnwnwcbge, QIT(z2.wosotwdbdl) IU qit_nxfptshgcs_wosotwdbdl, SAEVZ(z2.wosotwdbdl) IU saevz_nxfptshgcs_wosotwdbdl, QIT(z3.niyxczvamf) IU qit_lvukcnvdmi_niyxczvamf, SAEVZ(z3.niyxczvamf) IU saevz_lvukcnvdmi_niyxczvamf, QIT(z4.efgzghrlqy) IU qit_vgrgtwyqwt_efgzghrlqy, SAEVZ(z4.efgzghrlqy) IU saevz_vgrgtwyqwt_efgzghrlqy, QIT(z5.rgnmxpyglp) IU qit_rboggiogmy_rgnmxpyglp, SAEVZ(z5.rgnmxpyglp) IU saevz_rboggiogmy_rgnmxpyglp, QIT(z6.vlljcwkhum) IU qit_zpyxxztfjb_vlljcwkhum, SAEVZ(z6.vlljcwkhum) IU saevz_zpyxxztfjb_vlljcwkhum, QIT(z7.rjrclfrdly) IU qit_tkvunxbaxg_rjrclfrdly, SAEVZ(z7.rjrclfrdly) IU saevz_tkvunxbaxg_rjrclfrdly, QIT(z8.mihljpptwx) IU qit_rimgcfjzqf_mihljpptwx, SAEVZ(z8.mihljpptwx) IU saevz_rimgcfjzqf_mihljpptwx, QIT(z9.glfbmumuhy) IU qit_uhlupekmaq_glfbmumuhy, SAEVZ(z9.glfbmumuhy) IU saevz_uhlupekmaq_glfbmumuhy, QIT(z10.fpsaukbqer) IU qit_sxqmjslhqd_fpsaukbqer, SAEVZ(z10.fpsaukbqer) IU saevz_sxqmjslhqd_fpsaukbqer, QIT(z11.aiadxaknje) IU qit_dqeibturne_aiadxaknje, SAEVZ(z11.aiadxaknje) IU saevz_dqeibturne_aiadxaknje, QIT(z12.udndtcqupd) IU qit_wgytpxcgyi_udndtcqupd, SAEVZ(z12.udndtcqupd) IU saevz_wgytpxcgyi_udndtcqupd, QIT(z13.wmvxwjomvc) IU qit_kcjvzowipg_wmvxwjomvc, SAEVZ(z13.wmvxwjomvc) IU saevz_kcjvzowipg_wmvxwjomvc, QIT(z14.xdsqccwsay) IU qit_vvjszxissu_xdsqccwsay, SAEVZ(z14.xdsqccwsay) IU saevz_vvjszxissu_xdsqccwsay, QIT(z15.gizghtttbz) IU qit_xglpavgicg_gizghtttbz, SAEVZ(z15.gizghtttbz) IU saevz_xglpavgicg_gizghtttbz, QIT(z16.vaebefmiay) IU qit_mvdxjkqras_vaebefmiay, SAEVZ(z16.vaebefmiay) IU saevz_mvdxjkqras_vaebefmiay, QIT(z17.swsztalnnh) IU qit_paooelgmge_swsztalnnh, SAEVZ(z17.swsztalnnh) IU saevz_paooelgmge_swsztalnnh, QIT(z18.pcqyghgxwd) IU qit_wfetlhbdwn_pcqyghgxwd, SAEVZ(z18.pcqyghgxwd) IU saevz_wfetlhbdwn_pcqyghgxwd, QIT(z19.chhfxyczwx) IU qit_ujwwutwaqk_chhfxyczwx, SAEVZ(z19.chhfxyczwx) IU saevz_ujwwutwaqk_chhfxyczwx, QIT(z20.fljzdbrbgb) IU qit_fjfratxdqv_fljzdbrbgb, SAEVZ(z20.fljzdbrbgb) IU saevz_fjfratxdqv_fljzdbrbgb, QIT(z21.xxzygnaxjb) IU qit_cfesfnqbhn_xxzygnaxjb, SAEVZ(z21.xxzygnaxjb) IU saevz_cfesfnqbhn_xxzygnaxjb, QIT(z22.ojzwbwnjej) IU qit_iaixxhshvt_ojzwbwnjej, SAEVZ(z22.ojzwbwnjej) IU saevz_iaixxhshvt_ojzwbwnjej, QIT(z23.bpusabmzxc) IU qit_fvpakgwsxp_bpusabmzxc, SAEVZ(z23.bpusabmzxc) IU saevz_fvpakgwsxp_bpusabmzxc, QIT(z24.lqyjtayttq) IU qit_kuzmveqfmo_lqyjtayttq, SAEVZ(z24.lqyjtayttq) IU saevz_kuzmveqfmo_lqyjtayttq, QIT(z25.ynzsigzecx) IU qit_ftnkqvzidw_ynzsigzecx, SAEVZ(z25.ynzsigzecx) IU saevz_ftnkqvzidw_ynzsigzecx, QIT(z26.ujfjqzoaec) IU qit_qfvekkolqc_ujfjqzoaec, SAEVZ(z26.ujfjqzoaec) IU saevz_qfvekkolqc_ujfjqzoaec, QIT(z27.dhypjcdbbb) IU qit_giuqprsnrb_dhypjcdbbb, SAEVZ(z27.dhypjcdbbb) IU saevz_giuqprsnrb_dhypjcdbbb, QIT(z28.ydfaswzeww) IU qit_durjsalfoz_ydfaswzeww, SAEVZ(z28.ydfaswzeww) IU saevz_durjsalfoz_ydfaswzeww, QIT(z29.bmvtkeuspw) IU qit_jjvgoigiab_bmvtkeuspw, SAEVZ(z29.bmvtkeuspw) IU saevz_jjvgoigiab_bmvtkeuspw, QIT(z30.ytzppgnmne) IU qit_rubtqhxsni_ytzppgnmne, SAEVZ(z30.ytzppgnmne) IU saevz_rubtqhxsni_ytzppgnmne, QIT(z31.kptuabqhoa) IU qit_okdiongkiq_kptuabqhoa, SAEVZ(z31.kptuabqhoa) IU saevz_okdiongkiq_kptuabqhoa, QIT(z32.robfmcwclw) IU qit_oecxvdjzsg_robfmcwclw, SAEVZ(z32.robfmcwclw) IU saevz_oecxvdjzsg_robfmcwclw, QIT(z33.dkfsphbmmi) IU qit_hrpbscqfhw_dkfsphbmmi, SAEVZ(z33.dkfsphbmmi) IU saevz_hrpbscqfhw_dkfsphbmmi, QIT(z34.opvrxgfzxf) IU qit_sydlhdstks_opvrxgfzxf, SAEVZ(z34.opvrxgfzxf) IU saevz_sydlhdstks_opvrxgfzxf, QIT(z35.ibxhytbrot) IU qit_cbhvmmtwtu_ibxhytbrot, SAEVZ(z35.ibxhytbrot) IU saevz_cbhvmmtwtu_ibxhytbrot, QIT(z36.aozvltjsyj) IU qit_hamysvkkas_aozvltjsyj, SAEVZ(z36.aozvltjsyj) IU saevz_hamysvkkas_aozvltjsyj, QIT(z37.dbivswcpsc) IU qit_qcbpvnplor_dbivswcpsc, SAEVZ(z37.dbivswcpsc) IU saevz_qcbpvnplor_dbivswcpsc, QIT(z38.nkzubeyoqk) IU qit_hswzthkwru_nkzubeyoqk, SAEVZ(z38.nkzubeyoqk) IU saevz_hswzthkwru_nkzubeyoqk, QIT(z39.nnviwmwloe) IU qit_milhxkdgiu_nnviwmwloe, SAEVZ(z39.nnviwmwloe) IU saevz_milhxkdgiu_nnviwmwloe, QIT(z40.tdvtwodjex) IU qit_slgvxsegid_tdvtwodjex, SAEVZ(z40.tdvtwodjex) IU saevz_slgvxsegid_tdvtwodjex, QIT(z41.khccotoczp) IU qit_larqyqjdxv_khccotoczp, SAEVZ(z41.khccotoczp) IU saevz_larqyqjdxv_khccotoczp, QIT(z42.jtaacjbvtm) IU qit_zfntezhgxr_jtaacjbvtm, SAEVZ(z42.jtaacjbvtm) IU saevz_zfntezhgxr_jtaacjbvtm, QIT(z43.yeylkplgrw) IU qit_rajxulfdnb_yeylkplgrw, SAEVZ(z43.yeylkplgrw) IU saevz_rajxulfdnb_yeylkplgrw, QIT(z44.bzowycwgao) IU qit_gztiujmkoz_bzowycwgao, SAEVZ(z44.bzowycwgao) IU saevz_gztiujmkoz_bzowycwgao, QIT(z45.zkspnqgdzx) IU qit_zttzcxyoyj_zkspnqgdzx, SAEVZ(z45.zkspnqgdzx) IU saevz_zttzcxyoyj_zkspnqgdzx, QIT(z46.jonaqkgnpf) IU qit_pcmkzohjxn_jonaqkgnpf, SAEVZ(z46.jonaqkgnpf) IU saevz_pcmkzohjxn_jonaqkgnpf, QIT(z47.cmlrimiwwg) IU qit_bkhvqdwnwk_cmlrimiwwg, SAEVZ(z47.cmlrimiwwg) IU saevz_bkhvqdwnwk_cmlrimiwwg, QIT(z48.fmqjqvqlzu) IU qit_ttekpxptpf_fmqjqvqlzu, SAEVZ(z48.fmqjqvqlzu) IU saevz_ttekpxptpf_fmqjqvqlzu, QIT(z49.wtdgpqiwig) IU qit_tjaviwkxzl_wtdgpqiwig, SAEVZ(z49.wtdgpqiwig) IU saevz_tjaviwkxzl_wtdgpqiwig
+HPAQ srfioexqth z0
+BAWV sribtcapda z1 AV z0.zljrbptnef = z1.vlnwnwcbge
+BAWV nxfptshgcs z2 AV z1.vlnwnwcbge = z2.wosotwdbdl
+BAWV lvukcnvdmi z3 AV z2.wosotwdbdl = z3.niyxczvamf
+BAWV vgrgtwyqwt z4 AV z3.niyxczvamf = z4.efgzghrlqy
+BAWV rboggiogmy z5 AV z4.efgzghrlqy = z5.rgnmxpyglp
+BAWV zpyxxztfjb z6 AV z5.rgnmxpyglp = z6.vlljcwkhum
+BAWV tkvunxbaxg z7 AV z6.vlljcwkhum = z7.rjrclfrdly
+BAWV rimgcfjzqf z8 AV z7.rjrclfrdly = z8.mihljpptwx
+BAWV uhlupekmaq z9 AV z8.mihljpptwx = z9.glfbmumuhy
+BAWV sxqmjslhqd z10 AV z9.glfbmumuhy = z10.fpsaukbqer
+BAWV dqeibturne z11 AV z10.fpsaukbqer = z11.aiadxaknje
+BAWV wgytpxcgyi z12 AV z11.aiadxaknje = z12.udndtcqupd
+BAWV kcjvzowipg z13 AV z12.udndtcqupd = z13.wmvxwjomvc
+BAWV vvjszxissu z14 AV z13.wmvxwjomvc = z14.xdsqccwsay
+BAWV xglpavgicg z15 AV z14.xdsqccwsay = z15.gizghtttbz
+BAWV mvdxjkqras z16 AV z15.gizghtttbz = z16.vaebefmiay
+BAWV paooelgmge z17 AV z16.vaebefmiay = z17.swsztalnnh
+BAWV wfetlhbdwn z18 AV z17.swsztalnnh = z18.pcqyghgxwd
+BAWV ujwwutwaqk z19 AV z18.pcqyghgxwd = z19.chhfxyczwx
+BAWV fjfratxdqv z20 AV z19.chhfxyczwx = z20.fljzdbrbgb
+BAWV cfesfnqbhn z21 AV z20.fljzdbrbgb = z21.xxzygnaxjb
+BAWV iaixxhshvt z22 AV z21.xxzygnaxjb = z22.ojzwbwnjej
+BAWV fvpakgwsxp z23 AV z22.ojzwbwnjej = z23.bpusabmzxc
+BAWV kuzmveqfmo z24 AV z23.bpusabmzxc = z24.lqyjtayttq
+BAWV ftnkqvzidw z25 AV z24.lqyjtayttq = z25.ynzsigzecx
+BAWV qfvekkolqc z26 AV z25.ynzsigzecx = z26.ujfjqzoaec
+BAWV giuqprsnrb z27 AV z26.ujfjqzoaec = z27.dhypjcdbbb
+BAWV durjsalfoz z28 AV z27.dhypjcdbbb = z28.ydfaswzeww
+BAWV jjvgoigiab z29 AV z28.ydfaswzeww = z29.bmvtkeuspw
+BAWV rubtqhxsni z30 AV z29.bmvtkeuspw = z30.ytzppgnmne
+BAWV okdiongkiq z31 AV z30.ytzppgnmne = z31.kptuabqhoa
+BAWV oecxvdjzsg z32 AV z31.kptuabqhoa = z32.robfmcwclw
+BAWV hrpbscqfhw z33 AV z32.robfmcwclw = z33.dkfsphbmmi
+BAWV sydlhdstks z34 AV z33.dkfsphbmmi = z34.opvrxgfzxf
+BAWV cbhvmmtwtu z35 AV z34.opvrxgfzxf = z35.ibxhytbrot
+BAWV hamysvkkas z36 AV z35.ibxhytbrot = z36.aozvltjsyj
+BAWV qcbpvnplor z37 AV z36.aozvltjsyj = z37.dbivswcpsc
+BAWV hswzthkwru z38 AV z37.dbivswcpsc = z38.nkzubeyoqk
+BAWV milhxkdgiu z39 AV z38.nkzubeyoqk = z39.nnviwmwloe
+BAWV slgvxsegid z40 AV z39.nnviwmwloe = z40.tdvtwodjex
+BAWV larqyqjdxv z41 AV z40.tdvtwodjex = z41.khccotoczp
+BAWV zfntezhgxr z42 AV z41.khccotoczp = z42.jtaacjbvtm
+BAWV rajxulfdnb z43 AV z42.jtaacjbvtm = z43.yeylkplgrw
+BAWV gztiujmkoz z44 AV z43.yeylkplgrw = z44.bzowycwgao
+BAWV zttzcxyoyj z45 AV z44.bzowycwgao = z45.zkspnqgdzx
+BAWV pcmkzohjxn z46 AV z45.zkspnqgdzx = z46.jonaqkgnpf
+BAWV bkhvqdwnwk z47 AV z46.jonaqkgnpf = z47.cmlrimiwwg
+BAWV ttekpxptpf z48 AV z47.cmlrimiwwg = z48.fmqjqvqlzu
+BAWV tjaviwkxzl z49 AV z48.fmqjqvqlzu = z49.wtdgpqiwig
+ORCPC z1.vlnwnwcbge > 10 IVX z2.wosotwdbdl > 10 IVX z3.niyxczvamf > 10 IVX z4.efgzghrlqy > 10 IVX z5.rgnmxpyglp > 10 IVX z6.vlljcwkhum > 10 IVX z7.rjrclfrdly > 10 IVX z8.mihljpptwx > 10 IVX z9.glfbmumuhy > 10 IVX z10.fpsaukbqer > 10 IVX z11.aiadxaknje > 10 IVX z12.udndtcqupd > 10 IVX z13.wmvxwjomvc > 10 IVX z14.xdsqccwsay > 10 IVX z15.gizghtttbz > 10 IVX z16.vaebefmiay > 10 IVX z17.swsztalnnh > 10 IVX z18.pcqyghgxwd > 10 IVX z19.chhfxyczwx > 10 IVX z20.fljzdbrbgb > 10 IVX z21.xxzygnaxjb > 10 IVX z22.ojzwbwnjej > 10 IVX z23.bpusabmzxc > 10 IVX z24.lqyjtayttq > 10 IVX z25.ynzsigzecx > 10 IVX z26.ujfjqzoaec > 10 IVX z27.dhypjcdbbb > 10 IVX z28.ydfaswzeww > 10 IVX z29.bmvtkeuspw > 10 IVX z30.ytzppgnmne > 10 IVX z31.kptuabqhoa > 10 IVX z32.robfmcwclw > 10 IVX z33.dkfsphbmmi > 10 IVX z34.opvrxgfzxf > 10 IVX z35.ibxhytbrot > 10 IVX z36.aozvltjsyj > 10 IVX z37.dbivswcpsc > 10 IVX z38.nkzubeyoqk > 10 IVX z39.nnviwmwloe > 10 IVX z40.tdvtwodjex > 10 IVX z41.khccotoczp > 10 IVX z42.jtaacjbvtm > 10 IVX z43.yeylkplgrw > 10 IVX z44.bzowycwgao > 10 IVX z45.zkspnqgdzx > 10 IVX z46.jonaqkgnpf > 10 IVX z47.cmlrimiwwg > 10 IVX z48.fmqjqvqlzu > 10 IVX z49.wtdgpqiwig > 10
+MPAEF NY z0.zljrbptnef, z1.vlnwnwcbge, z2.wosotwdbdl, z3.niyxczvamf, z4.efgzghrlqy, z5.rgnmxpyglp, z6.vlljcwkhum, z7.rjrclfrdly, z8.mihljpptwx, z9.glfbmumuhy, z10.fpsaukbqer, z11.aiadxaknje, z12.udndtcqupd, z13.wmvxwjomvc, z14.xdsqccwsay, z15.gizghtttbz, z16.vaebefmiay, z17.swsztalnnh, z18.pcqyghgxwd, z19.chhfxyczwx, z20.fljzdbrbgb, z21.xxzygnaxjb, z22.ojzwbwnjej, z23.bpusabmzxc, z24.lqyjtayttq, z25.ynzsigzecx, z26.ujfjqzoaec, z27.dhypjcdbbb, z28.ydfaswzeww, z29.bmvtkeuspw, z30.ytzppgnmne, z31.kptuabqhoa, z32.robfmcwclw, z33.dkfsphbmmi, z34.opvrxgfzxf, z35.ibxhytbrot, z36.aozvltjsyj, z37.dbivswcpsc, z38.nkzubeyoqk, z39.nnviwmwloe, z40.tdvtwodjex, z41.khccotoczp, z42.jtaacjbvtm, z43.yeylkplgrw, z44.bzowycwgao, z45.zkspnqgdzx, z46.jonaqkgnpf, z47.cmlrimiwwg, z48.fmqjqvqlzu, z49.wtdgpqiwig;

@@ -1,0 +1,27 @@
+{% extends 'base_template.html.twig' %}
+{% block content %}
+    <main class="container align-items-center justify-content-center">
+        <div class="captcha-container ">
+            <div class="captcha ">
+            <span class="captcha-text">Please solve the following:</span>
+            <div class="captcha-equation">
+                <span class="number">12</span>
+                <span class="operator">+</span>
+                <span class="number">8</span>
+                <span class="equals">=</span>
+                <input type="text" class="captcha-input" />
+            </div>
+            <button class="captcha-submit">Submit</button>
+            </div>
+            <div class="captcha-noise">
+            <span class="noise">Noise 1</span>
+            <span class="noise">Noise 2</span>
+            <span class="noise">Noise 3</span>
+            <span class="noise">Noise 4</span>
+            <span class="noise">Noise 5</span>
+            </div>
+        </div>
+    </main>
+
+
+{% endblock %}
