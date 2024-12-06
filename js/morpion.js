@@ -35,17 +35,18 @@ async function handleCellClick(event) {
   grid[row][col] = currentPlayer;
   cell.textContent = currentPlayer;
 
+  // tour du joueur
   const winner = checkWinner();
   if (winner) {
     if (winner === "egalite") {
       winnerText.textContent =
         "Match nul ! C'est quand même nul de pas gagner contre le bot débile :p !";
         await sleep(2000);
-        window.location.href = '/match-nul.html';
+        window.location.href = 'index.php';
     } else {
       winnerText.textContent = `Le joueur ${winner} a gagné !`;
       await sleep(2000);
-      window.location.href = `/victoire.html?gagnant=${winner}`;
+      window.location.href = `index.php?controller=corps&methode=index`;
     }
 
     isGameRunning = false;
@@ -67,11 +68,11 @@ async function handleCellClick(event) {
         winnerText.textContent =
          "Match nul ! C'est quand même nul de pas gagner contre le bot débile :p !";
         await sleep(2000);
-        window.location.href = '/match-nul.html';
+        window.location.href = 'index.php';
       } else {
         winnerText.textContent = `Le joueur ${winner} a gagné !`;
         await sleep(2000);
-        window.location.href = ``;
+        window.location.href = `index.php`;
       }
 
       isGameRunning = false;

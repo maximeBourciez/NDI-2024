@@ -136,13 +136,13 @@ window.addEventListener("click", (event) => {
 
 // Objectes de correspondance entre le nom de l'objet et les URLs
 const redirectLinks = {
-  head: "index?controleur=corps&methode=cerveau",
-  torsoUp: "index?controleur=corps&methode=coeur",
-  torsoDown: "index?controleur=corps&methode=estomac",
-  llegs: "index?controleur=corps&methode=jambe",
-  rlegs: "index?controleur=corps&methode=jambe",
-  larms: "index?controleur=corps&methode=bras",
-  rarms: "index?controleur=corps&methode=bras",
+  head: "index.php?controller=corps&methode=cerveau",
+  torsoUp: "index.php?controller=corps&methode=coeur",
+  torsoDown: "index.php?controller=corps&methode=estomac",
+  llegs: "index.php?controller=corps&methode=jambe",
+  rlegs: "index.php?controller=corps&methode=jambe",
+  larms: "index.php?controller=corps&methode=bras",
+  rarms: "index.php?controller=corps&methode=bras",
 };
 
 function zoomTransition(object) {

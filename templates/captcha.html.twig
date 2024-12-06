@@ -1,0 +1,18 @@
+{% extends 'base_template.html.twig' %}
+{% block content %}
+    <main class="container align-items-center justify-content-center">
+        <h1>Résultats de Calcul</h1>
+
+    <div class="resultat">
+        <h2>Résultat 1 : <span id="resultat1">{{ resultat }}</span></h2>
+        <p class="troll-message">Oups... Tu pensais que ce chiffre allait changer ta vie ? Bah non !</p>
+    </div>
+
+    <div class="resultat">
+        <h2>Résultat 2 : <span id="resultat2">{{ resultat2 }}</span></h2>
+        <p class="troll-message">Je parie que tu t'attendais à quelque chose de plus utile… Tadaaa ! Voilà un autre chiffre qui ne te servira à rien !</p>
+    </div>
+    </main>
+
+
+{% endblock %}

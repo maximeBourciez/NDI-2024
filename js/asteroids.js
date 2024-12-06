@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Game state
     let gameOver = false;
+    let gameRunning = true;
     const player = {
         x: canvas.width / 2,
         y: canvas.height / 2,
@@ -86,6 +87,8 @@ document.addEventListener("DOMContentLoaded", () => {
     document.addEventListener("keyup", (e) => {
         if (e.code in keys) keys[e.code] = false;
     });
+
+
     const NEW_ASTEROID_THRESHOLD = 500;
 
     // Update game state
@@ -140,6 +143,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 player.lives--;
                 if (player.lives <= 0) {
                     gameOver = true;
+                    gameRunning = false
                 }
                 // Supprimer l'astéroïde après collision
                 asteroids.splice(asteroids.indexOf(asteroid), 1);
@@ -180,7 +184,7 @@ document.addEventListener("DOMContentLoaded", () => {
     function draw() {
         ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-        if (gameOver) {
+        if (gameOver && !gameRunning) {
             // Écran de game over
             ctx.fillStyle = "white";
             ctx.font = "48px Arial";
@@ -238,10 +242,23 @@ document.addEventListener("DOMContentLoaded", () => {
     function gameLoop() {
         update();
         draw();
+
+        if (gameOver && !gameRunning) {
+            setTimeout(() => {
+                window.location.href = `index.php?controller=captcha&methode=index`;
+            }, 3000); 
+            return;
+        }
+
+ 
+        if(!gameOver && !gameRunning){
+            window.location.href = `index.php?controller=corps&methode=index`;
+        }
+
         requestAnimationFrame(gameLoop);
     }
 
     // Start game
-    createAsteroids(1);
+    createAsteroids(5);
     gameLoop();
 });
