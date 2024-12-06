@@ -71,7 +71,7 @@ async function handleCellClick(event) {
       } else {
         winnerText.textContent = `Le joueur ${winner} a gagné !`;
         await sleep(2000);
-        window.location.href = `/victoire.html?gagnant=${winner}`;
+        window.location.href = ``;
       }
 
       isGameRunning = false;
