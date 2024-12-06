@@ -6,6 +6,7 @@ const Player = Object.freeze({
 let currentPlayer = Player.X;
 let isComputerTurn = false; // Indique si c'est le tour de l'ordinateur
 let isGameRunning = true; // Indique si le jeu est en cours
+let winnerText = document.getElementById('winner');
 
 // Initialiser une grille vide
 const grid = Array.from({ length: 3 }, () => Array(3).fill(' '));
@@ -20,10 +21,9 @@ async function handleCellClick(event) {
     }
 
     if(!isGameRunning) {
-        alert('Le jeu est terminé. Veuillez cliquer sur "Recommencer" pour jouer à nouveau.');
         return;
     }
-    
+
     const cell = event.target;
     const [row, col] = cell.id.split('-').slice(1).map(Number);
 
@@ -37,12 +37,14 @@ async function handleCellClick(event) {
 
     const winner = checkWinner();
     if (winner) {
-        if (winner === 'draw') {
+        if (winner === 'egalite') {
             alert('Match nul !');
+            winnerText.textContent = 'Match nul ! C\'est quand même nul de pas gagner contre le bot débile :p !';
         } else {
             alert(`Le joueur ${winner} a gagné !`);
+            winnerText.textContent = `Le joueur ${winner} a gagné !`; // Utilisez des backticks `` ici
         }
-
+    
         isGameRunning = false;
         return;
     }
@@ -55,6 +57,19 @@ async function handleCellClick(event) {
         isComputerTurn = true; // Bloquer les clics
         await sleep(1000); // Petit délai pour simuler une réflexion
         playComputerTurn();
+        
+        const winner = checkWinner();
+        if (winner) {
+            if (winner === 'egalite') {
+                winnerText.textContent = 'Match nul ! C\'est quand même nul de pas gagner contre le bot débile :p !';
+            } else {
+                winnerText.textContent = `Le joueur ${winner} a gagné !`; // Utilisez des backticks `` ici
+            }
+        
+            isGameRunning = false;
+            return;
+        }
+
         isComputerTurn = false; // Débloquer les clics après le tour de l'ordinateur
     }
 }
@@ -81,16 +96,6 @@ async function playComputerTurn() {
     currentPlayer = Player.X;
     document.getElementById('currentPlayer').textContent = currentPlayer;
 
-    const winner = checkWinner();
-    if (winner) {
-        if (winner === 'draw') {
-            alert('Match nul !');
-        } else {
-            alert(`Le joueur ${winner} a gagné !`);
-        }
-
-        return;
-    }
 }
 
 // Ajouter des écouteurs d'événements sur chaque cellule
