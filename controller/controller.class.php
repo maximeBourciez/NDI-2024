@@ -19,7 +19,7 @@ class Controller{
      *
      * @var \Twig\Environment twig
      */
-    private \Twig\Environment $twig;
+    protected \Twig\Environment $twig;
     /**
      *
      * @var array|null methode get

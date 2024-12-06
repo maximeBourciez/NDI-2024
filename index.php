@@ -3,8 +3,8 @@
 require_once 'include.php';
 
 try  {
-    if (isset($_GET['controleur'])){
-        $controllerName=$_GET['controleur'];
+    if (isset($_GET['controller'])){
+        $controllerName=$_GET['controller'];
     }else{
         $controllerName='';
     }
@@ -29,11 +29,23 @@ try  {
         throw new Exception('La méthode n\'est pas définie');
     }
     else {
-        $controller = ControllerFactory::getController($controllerName, $loader, $twig);
-    
-        $controller->call($methode);
-    }
-    
-}catch (Exception $e) {
+        try {
+            $controller = ControllerFactory::getController($controllerName, $loader, $twig);
+            if (!$controller) {
+                throw new Exception("Erreur : Aucun contrôleur trouvé pour '$controllerName'.");
+            }
+        
+            if (!method_exists($controller, $methode)) {
+                throw new Exception("Erreur : La méthode '$methode' n'existe pas dans le contrôleur '$controllerName'.");
+            }
+        
+            $controller->call($methode);
+        } 
+        catch (Exception $e) {
+            die('Erreur : ' . $e->getMessage());
+        }
+}
+}
+catch (Exception $e) {
     die('Erreur : ' . $e->getMessage());
 }

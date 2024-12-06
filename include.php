@@ -11,7 +11,7 @@ require_once 'config/twig.php';
 
 //Ajout du modèle qui gère la connexion mysql
 require_once 'modeles/bd.class.php';
-require_once 'modeles/captcha.dao.php';
+
 
 
 
