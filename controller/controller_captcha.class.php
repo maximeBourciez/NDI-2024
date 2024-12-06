@@ -25,6 +25,11 @@ class ControllerCaptcha extends Controller
         $this->genererVue('morpion');
     }
 
+    public function index(){
+        // Générer la vue
+        $this->genererVue('baseCaptcha');
+    }
+
     private function genererVue(string $file){
         $template = $this->getTwig()->load($file. '.html.twig');
         echo $template->render(array());

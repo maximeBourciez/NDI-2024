@@ -1,10 +1,13 @@
 <?php
 
-require_once 'include.php';
 
+// Inclure tous les modèles & contrôleurs
+require_once "include.php";
+
+// Créer le contrôleur demandé
 try  {
-    if (isset($_GET['controleur'])){
-        $controllerName=$_GET['controleur'];
+    if(isset($_GET['controller'])){
+        $controllerName=$_GET['controller'];
     }else{
         $controllerName='';
     }
@@ -17,22 +20,24 @@ try  {
 
     //Gestion de la page d'accueil par défaut
     if ($controllerName == '' && $methode ==''){
-        $template = $twig->load('morpion.html.twig');
-        echo $template->render(array('etat' => 'connecte',));
+        $controllerName='captcha';
+        $methode='index';
         
     }
-    else if ($controllerName == '' ){
+
+    // Générer les erreurs au besoin
+    if ($controllerName == '' ){
         throw new Exception('Le controleur n\'est pas défini');
     }
-    else if ($methode == '' ){
+
+    if ($methode == '' ){
         throw new Exception('La méthode n\'est pas définie');
     }
-    else {
-        $controller = ControllerFactory::getController($controllerName, $loader, $twig);
+
     
-        $controller->call($methode);
-    }
-    
+    // Générer le controleur
+    $controller = ControllerFactory::getController($controllerName, $loader, $twig);
+    $controller->call($methode);
 }catch (Exception $e) {
-    die('Erreur : ' . $e->getMessage());
+   die('Erreur : ' . $e->getMessage());
 }
