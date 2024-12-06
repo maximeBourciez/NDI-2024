@@ -16,3 +16,4 @@ require_once 'modeles/bd.class.php';
 // Ajout des controleurs
 require_once 'controller/controller.class.php';
 require_once 'controller/controller_factory.class.php';
+require_once 'controller/controller_corps.class.php';

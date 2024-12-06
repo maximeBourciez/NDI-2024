@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @author Félix Autant
  * @describe controller factory
@@ -15,9 +16,9 @@ class ControllerFactory
      * @param \Twig\Environment $twig 
      * @return void
      */
-    public static function getController($controleur, \Twig\Loader\FilesystemLoader $loader, \Twig\Environment $twig)
+    public static function getController($controleur, \Twig\Loader\FilesystemLoader $loader, \Twig\Environment $twig): Controller
     {
-        $controllerName="Controller".ucfirst($controleur);
+        $controllerName = "Controller" . ucfirst($controleur);
         if (!class_exists($controllerName)) {
             throw new Exception("Le controleur $controllerName n'existe pas");
         }
