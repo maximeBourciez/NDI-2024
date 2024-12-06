@@ -19,4 +19,20 @@ class ControllerCorps extends Controller
         $template = $this->getTwig()->load('index.html.twig');
         echo $template->render(['display_header' => false]);  // Ici
     }
+    public function bras() : void {
+        $template = $this->getTwig()->load('bras.html.twig');
+        echo $template->render(array());
+    }
+    public function coeur() : void {
+        $template = $this->getTwig()->load('coeur.html.twig');
+        echo $template->render(array());
+    }
+    public function estomac() : void {
+        $template = $this->getTwig()->load('estomac.html.twig');
+        echo $template->render(array());
+    }
+    public function jambe() : void {
+        $template = $this->getTwig()->load('jambe.html.twig');
+        echo $template->render(array());
+    }
 }
